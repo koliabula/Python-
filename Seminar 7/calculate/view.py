@@ -1,7 +1,8 @@
-import model
+import controller
 
 def view_data(data):
-    print(f'{model.x} + {model.x} = {data}')
+    print(f'{controller.value_s} = {data}')
+
 
 def get_value():
     return (input('Пример: '))
